@@ -1,0 +1,2 @@
+# seminario_circuitos
+Ohmimetro
