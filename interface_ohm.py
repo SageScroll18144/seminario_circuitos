@@ -46,7 +46,7 @@ def main():
 
             # Atualiza a tela
             tela.blit(fundo, (0, 0))  # Desenha a imagem de fundo
-            texto = fonte.render(f"{dado_serial} Ohm", True, cor_texto)
+            texto = fonte.render(f"{dado_serial}", True, cor_texto)
             tela.blit(texto, (150, 70))  # Centraliza o texto horizontalmente
             pygame.display.flip()
 
